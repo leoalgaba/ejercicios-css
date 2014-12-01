@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+}
+header,
+article,
+footer {
+  width: 960px;
+  margin: auto;
+}
+.menu {
+  width: 960px;
+  margin: auto;
+  clear: both;
+  height: 40px;
+  background: #555;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  float: left;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  line-height: 40px;
+  padding: 0 10px;
+  display: block;
+}
+nav ul li a:hover {
+  background: #777;
+}
+.logo {
+  float: left;
+}
+.redes_sociales {
+  float: right;
+}
