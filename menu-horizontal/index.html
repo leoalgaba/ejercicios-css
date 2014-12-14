@@ -5,6 +5,20 @@
 	<meta charset="UTF-8">
 	<title>Menu horizontal</title>
 	<link rel="stylesheet" href="css/estilo.css">
+	<link rel="stylesheet" href="css/jquery-ui-1.10.4.custom.min.css">
+
+	<script src="js/jquery-1.10.2.js"></script>
+	<script src="js/jquery-ui-1.10.4.custom.min"></script>
+
+	<script>
+	$(function() {
+		$( "input[type=submit], a, button" )
+			.button()
+			.click(function( event ) {
+				event.preventDefault();
+			});
+	});
+	</script>
 
 </head>
 
